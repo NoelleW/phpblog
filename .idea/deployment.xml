@@ -2,14 +2,7 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="opdr02">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="opdr03">
+      <paths name="Hitachi Global 2 | Staging">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
