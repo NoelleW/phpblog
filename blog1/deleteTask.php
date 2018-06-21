@@ -6,5 +6,15 @@
 * Time: 13:07
 */
 
-$sql = "DELETE FROM Task
-WHERE ÌD = $ID";
+require_once("query.php");
+$id = $_GET['id'];
+//$sql = "SELECT id FROM Task WHERE id = ".$_GET[];
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        echo "Taak nr.: " . $row["id"];
+
+        if ($_GET[$id] == $row["id"]){
+            echo "test";
+        }
+    }}
+echo $id;

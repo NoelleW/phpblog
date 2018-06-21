@@ -13,45 +13,45 @@ if ($conn->connect_error) {
 }
 
 // Get all data
-$sql = "SELECT * FROM Task";
+$sql = "SELECT * FROM tasks";
 
 
 $result = $conn->query($sql);
 
 
 // Show tasks
-//if ($result->num_rows > 0) {
-//    while($row = $result->fetch_assoc()) {
-//        echo "Taak nr.: ". $row["ID"]. "<br>". "Taak: ". $row["Title"]. "<br>". "Beschrijving: " . $row["Content"]."<br>". $row["DateExpire"]. "<br><br>";
-//    }
-//} else {
-//    echo "0 results";
-//}
-// No SQL Injections allowed!
-//$ID = mysqli_real_escape_string($conn, $_REQUEST['ID']);
-$taskTitle = mysqli_real_escape_string($conn, $_REQUEST['taskTitle']);
-$taskContent = mysqli_real_escape_string($conn, $_REQUEST['taskContent']);
-$taskDueDate = mysqli_real_escape_string($conn, $_REQUEST['taskDueDate']);
-
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        echo "Taak nr.: ". $row["id"]. "<br>". "Taak: ". $row["title"]. "<br>". "Beschrijving: " . $row["content"]."<br>". $row["date"]. "<br><br>";
+    }
+} else {
+    echo "0 results";
+}
 
 // Add Task
-$sql = "INSERT INTO Task (Title,Content,DateExpire) 
-VALUES ('$taskTitle','$taskContent','$taskDueDate')";
-
+//$sql = "INSERT INTO Tasks (title,content)
+//VALUES (title, content)";
 
 //Error check for Insert statement
-if ($conn->multi_query($sql) == TRUE) {
-    echo " ";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
 
-$sql = "DELETE FROM Task WHERE ID=$ID";
-if(mysqli_query($conn, $sql)){
-    echo "Records were deleted successfully.";
-} else{
-    echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
+
+if (isset($_POST['submit']))
+{
+    $user= $_POST['title'];
+    $email = $_POST['content'];
+    $pass= $_POST['date'];
+
+    mysqli_query("INSERT INTO Tasks (title, content, date) VALUES(title,content, date)");
+
 }
+//best outside the if statement so user isn't stuck on a white blank page.
+
+//$sql = "DELETE FROM Task WHERE ID=$ID";
+//if(mysqli_query($conn, $sql)){
+//    echo "Records were deleted successfully.";
+//} else{
+//    echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
+//}
 
 
 

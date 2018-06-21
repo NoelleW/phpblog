@@ -6,18 +6,18 @@
     <title>Add Record Form</title>
 </head>
 <body>
-<form action="index.php" method="get">
+<form  method="post">
     <p>
         <label for="taskTitle">Taak:</label>
-        <input type="text" name="taskTitle" id="taskTitle" required>
+        <input type="text" name="title" id="title" required>
     </p>
     <p>
         <label for="Content">Beschrijving: </label>
-        <input type="text" name="taskContent" id="taskContent">
+        <input type="text" name="content" id="content">
     </p>
     <p>
         <label for="DateExpire">Deadline: </label>
-        <input type="datetime-local" name="taskDueDate" id="taskDueDate">
+        <input type="date" name="date" id="date">
     </p>
     <input type="submit" value="Submit">
 </form>

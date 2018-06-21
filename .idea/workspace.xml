@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="130607e0-14eb-4797-a18f-5c385c20a2be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/version2/index.php" afterDir="false" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog1/deleteTask.php" afterPath="$PROJECT_DIR$/blog1/deleteTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog1/editTask.php" afterPath="$PROJECT_DIR$/blog1/editTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog1/index.php" afterPath="$PROJECT_DIR$/blog1/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog1/newTask.php" afterPath="$PROJECT_DIR$/blog1/newTask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog1/query.php" afterPath="$PROJECT_DIR$/blog1/query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog2/index.php" afterPath="$PROJECT_DIR$/blog2/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +21,80 @@
     <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/version2/index.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog1/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="504">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+                <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog2/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newTask.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog1/query.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+                <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+                <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+                <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+                <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editTask.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding>
+                <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteTask.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+                <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+                <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+                <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+                <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,6 +108,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/version2/index.php" />
+        <option value="$PROJECT_DIR$/blog2/index.php" />
+        <option value="$PROJECT_DIR$/blog1/deleteTask.php" />
+        <option value="$PROJECT_DIR$/blog1/editTask.php" />
+        <option value="$PROJECT_DIR$/blog1/index.php" />
+        <option value="$PROJECT_DIR$/blog1/newTask.php" />
+        <option value="$PROJECT_DIR$/blog1/query.php" />
       </list>
     </option>
   </component>
@@ -48,40 +128,53 @@
       <path value="$PROJECT_DIR$/blog/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="235" />
-    <option name="y" value="-10" />
-    <option name="width" value="1345" />
-    <option name="height" value="880" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="phpblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpblog" type="462c0819:PsiDirectoryNode" />
+              <item name="phpblog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="phpblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpblog" type="462c0819:PsiDirectoryNode" />
-              <item name="version2" type="462c0819:PsiDirectoryNode" />
+              <item name="phpblog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -95,6 +188,9 @@
       </list>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,36 +202,45 @@
       <option name="presentableId" value="Default" />
       <updated>1527234231977</updated>
       <workItem from="1527234233212" duration="47000" />
+      <workItem from="1527234709694" duration="5183000" />
+      <workItem from="1527852838457" duration="297000" />
+      <workItem from="1528790496622" duration="597000" />
+      <workItem from="1528972355863" duration="1925000" />
+      <workItem from="1528975340781" duration="1190000" />
+      <workItem from="1529047195815" duration="1022000" />
+      <workItem from="1529349189333" duration="1128000" />
+      <workItem from="1529391061784" duration="348000" />
+      <workItem from="1529393593214" duration="45000" />
+      <workItem from="1529515834095" duration="3171000" />
+      <workItem from="1529558400138" duration="882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47000" />
+    <option name="totallyTimeSpent" value="15835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="952" y="0" width="976" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19102296" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,11 +249,561 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" column="2" lean-forward="true" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/version2/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/editTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1527853124013" expanded="true" signature="56:67" ph="UPDATE Task " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/deleteTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1527241390723" expanded="true" signature="142:167" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:168" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:172" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:173" ph="SELECT id FR... Task" />
+            <marker date="1527241390723" expanded="true" signature="142:182" ph="SELECT id FR... Task" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog2/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <marker date="1528973013699" expanded="true" signature="955:961" ph=" " />
+            <marker date="1528973013699" expanded="true" signature="962:968" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/newTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog1/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <marker date="1529559637265" expanded="true" signature="299:317" ph="SELECT * FRO... Task" />
+            <marker date="1529559637265" expanded="true" signature="299:318" ph="SELECT * FRO... tasks" />
+            <marker date="1529559637265" expanded="true" signature="652:695" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="652:711" ph="INSERT INTO Tasks... " />
+            <marker date="1529559637265" expanded="true" signature="889:957" ph="INSERT INTO Tasks... " />
+          </folding>
         </state>
       </provider>
     </entry>

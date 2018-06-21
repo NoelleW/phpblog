@@ -25,7 +25,20 @@ require("query.php");
 // Show tasks
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "Taak nr.: ". $row["ID"]. "<br>". "Taak: ". $row["Title"]. "<br>". "Beschrijving: " . $row["Content"]."<br>"."Eind datum: " . $row["DateExpire"]. "<br>". "<a href='editTask.php'>Bewerk</a> &nbsp; &nbsp;<a href='deleteTask.php'>Verwijder</a><br><br>";
+        echo "Taak nr.: ". $row["id"]. "<br>". "Taak: ". $row["title"]. "<br>". "Beschrijving: " . $row["content"]."<br>"."Eind datum: " . $row["DATE"]. "<br>".
+
+            "<form action=\"editTask.php\" method=\"post\">
+
+                <input type=\"submit\" value=\"Bewerk\"> 
+               
+            </form> 
+            
+            <form action=\"deleteTask.php\" method=\post\">
+
+                <input type=\"submit\" value=\"Verwijder\"> 
+               
+            </form>
+<a href='editTask.php'>Bewerk</a> &nbsp; &nbsp;<a href='deleteTask.php'>Verwijder</a><br><br>";
 
     }
 } else {
