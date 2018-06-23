@@ -1,12 +1,5 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Add Record Form</title>
-</head>
-<body>
-<form  method="post">
+<form action="index.php" method="post" >
     <p>
         <label for="taskTitle">Taak:</label>
         <input type="text" name="title" id="title" required>
@@ -15,11 +8,19 @@
         <label for="Content">Beschrijving: </label>
         <input type="text" name="content" id="content">
     </p>
-    <p>
-        <label for="DateExpire">Deadline: </label>
-        <input type="date" name="date" id="date">
-    </p>
     <input type="submit" value="Submit">
 </form>
-</body>
-</html>
+
+<?php
+require_once("query.php");
+
+// Add task
+$title = $_POST["title"];
+$content = $_POST["content"];
+$sql = "INSERT INTO tasks (title,content) VALUES ('$title','$content ')";
+if ($conn->query($sql) === TRUE) {
+    echo "";
+} else {
+    echo "Error: " . $sql . "<br>". $conn->error;
+}
+?>
