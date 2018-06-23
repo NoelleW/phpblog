@@ -1,5 +1,5 @@
-
-<form action="index.php" method="post" >
+<a href="index.php">Ga naar het overzicht</a>
+<form action="newTask.php" method="post" >
     <p>
         <label for="taskTitle">Taak:</label>
         <input type="text" name="title" id="title" required>
@@ -19,8 +19,10 @@ $title = $_POST["title"];
 $content = $_POST["content"];
 $sql = "INSERT INTO tasks (title,content) VALUES ('$title','$content ')";
 if ($conn->query($sql) === TRUE) {
-    echo "";
+echo " ";
 } else {
     echo "Error: " . $sql . "<br>". $conn->error;
 }
+
 ?>
+
